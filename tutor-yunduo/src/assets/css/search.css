@@ -1,0 +1,63 @@
+@import url(reset.css);
+.size-14 {
+  font-size: 14px; }
+
+.size-16 {
+  font-size: 16px; }
+
+.size-18 {
+  font-size: 18px; }
+
+.size-20 {
+  font-size: 20px; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  flex-direction: column; }
+
+html {
+  font-size: 62.5%; }
+
+.header {
+  width: 100%;
+  height: 5.4rem;
+  background: #ffffff;
+  border-bottom: 1px solid #d5d5d5;
+  display: flex;
+  flex-direction: row;
+  padding: 0 1rem;
+  box-sizing: border-box; }
+  .header .left img {
+    width: auto;
+    height: 1.6rem;
+    background: none;
+    margin: 2rem 1.8rem 0 0; }
+  .header .right button {
+    color: #fe5658;
+    font-size: 1.6rem;
+    margin: 20px 0 0 14px;
+    border: none;
+    outline: none;
+    background: none; }
+  .header .center {
+    flex: 1;
+    position: relative; }
+    .header .center img {
+      width: auto;
+      height: 1.4rem;
+      background: none;
+      position: absolute;
+      top: 1.8rem;
+      left: 1rem; }
+    .header .center input {
+      width: 100%;
+      height: 3.3rem;
+      background: #eeeeee;
+      border: none;
+      outline: none;
+      margin-top: 10px;
+      padding-left: 3.6rem;
+      border-radius: 5px; }
